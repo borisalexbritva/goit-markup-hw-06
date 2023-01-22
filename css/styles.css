@@ -116,6 +116,7 @@
     margin-bottom: 8px;
     display: flex;
     flex-direction: column;
+    border: #2E2F42;
     
 }
 
@@ -137,7 +138,8 @@
 
 .form-field input:focus + .form-icon {
     fill: #4d5ae5;
-    border-color: #4D5AE5;
+    border: #4d5ae5 ;
+    
 }
 
 
@@ -235,14 +237,17 @@
 
 .checkbox:checked + .policy-icon {
     border-color: transparent;
-    background-image: url("/images/click.svg");
+    background-image: url("../images/click.svg");
     background-size: contain;
     background-origin: border-box;
 }
 
 .policy-text {
     margin: 0;
+    
 }
+.policy-item{
+    color: #404BBF;}
 
 .button-policy {
     width: 169px;
