@@ -130,17 +130,28 @@
     
 }
 
+
 .form-field input {
     height: 40px;
     padding-left: 38px;
+    border-color: rgba(117, 117, 117, 0.5);
+
+    
+}
+.form-field input :hover{
+    height: 40px;
+    padding-left: 38px;
+    border-color: var(--butcolor);
+
     
 }
 
 .form-field input:focus + .form-icon {
     fill: #4d5ae5;
-    border: #4d5ae5 ;
+    border-color: #4d5ae5 ;
     
 }
+
 
 
 .form-field label {
